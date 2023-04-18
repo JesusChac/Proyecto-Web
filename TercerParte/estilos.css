@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: #f3f3f3;
+}
+
+#barra a{
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+#barra a:hover{
+    background-color: blue;
+    color: black;
+    transition: 0.5s all ease;
+}
+
+main h2{
+    border-bottom: ridge #f3f3f3 3px;
+}
+
+
+
+
+
+
+
+
+
+
+header{
+    background-color: cadetblue;
+}
+header h1{
+    padding: 5px;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header nav ul li{
+    padding: 5px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #f3f3f3;
+    padding: 10px;
+    border-radius: 10px;
+}
+header nav ul li a:hover{
+    background-color: blue;
+    color: aliceblue;
+    transition: 0.5s all ease;
+}
+
+#SobreDucati{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#SobreDucati article h2{
+    font-size: 200%;
+    color: red;
+
+}
+#SobreDucati article p{
+    font-size: 120%;
+    font-weight: 500;
+    color: black;
+}
+#SobreDucati article figure{
+    width: 400px;
+}
+#SobreDucati article figure img{
+    width: 400px;
+    border-radius: 5px 50px;
+}
+
+#MotorDucati{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#MotorDucati article h2{
+    font-size: 200%;
+    color: red;
+
+}
+#MotorDucati article p{
+    font-size: 120%;
+    font-weight: 500;
+    color: black;
+}
+#MotorDucati article figure{
+    width: 400px;
+}
+#MotorDucati article figure img{
+    width: 400px;
+    border-radius: 5px 50px;
+}
+#DiseñoMotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#DiseñoMotos article h2{
+    font-size: 200%;
+    color: red;
+
+}
+#DiseñoMotos article p{
+    font-size: 120%;
+    font-weight: 500;
+    color: black;
+}
+#DiseñoMotos article figure{
+    width: 400px;
+}
+#DiseñoMotos article figure img{
+    width: 400px;
+    border-radius: 5px 50px;
+}
+
+footer{
+    background-color: cadetblue;
+    color: black;
+    font-size: 130%;
+    text-align: center;
+}
+footer p{
+    padding: 20px;
+}
+@media (max-width: 480px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        margin-top: 20px;
+    }
+    nav ul{
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    #SobreDucati{
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+    }
+    #MotorDucati{
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+    }
+    #DiseñoMotos{
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+    }
+    
+    #SobreDucati article figure{
+        width: 300px;
+        padding: 15px;
+    }
+    #MotorDucati article figure{
+        width: 300px;
+        padding: 15px;
+    }
+    #DiseñoMotos article figure{
+        width: 300px;
+        padding: 15px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 790px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        margin-top: 20px;
+    }
+    nav ul{
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    #SobreDucati{
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+    }
+    #MotorDucati{
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+    }
+    #DiseñoMotos{
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+    }
+    
+    #SobreDucati article figure{
+        width: 350px;
+        padding: 15px;
+    }
+    #MotorDucati article figure{
+        width: 350px;
+        padding: 15px;
+    }
+    #DiseñoMotos article figure{
+        width: 350px;
+        padding: 15px;
+    }
+}
+@media (min-width: 790px){
+    main{
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 60px;
+    }
+    #SobreDucati article figure{
+        padding: 15px;
+    }
+    #MotorDucati article figure{
+        padding: 15px;
+    }
+    #DiseñoMotos article figure{
+        padding: 15px;
+    }
+}
