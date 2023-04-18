@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title>
+        Pagina Principal
+    </title>
+    <link rel="stylesheet" type="text/css" href="button.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="shortcut icon" href="img/IconoMoto.jpg" type="image/x-icon">
+    <style type="text/css">
+        #body {
+            background: url("img/fonPrin.jpg") no-repeat;
+            background-size: cover;
+            background-position: top left;
+        }
+
+        #div {
+            background-color:  #149CEA;
+            color: black;
+        }
+        #footer{
+            color: whitesmoke;
+            font-size: 130%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body id=body>
+    <div class="container card " id=div>
+        <div class="row">
+            <h1 align="center"> Proyecto #1 Web Alejandro-Jeremy</h1>
+        </div>
+    </div>
+    <br><br><br>
+    <div align="center" >
+        <button onclick="PrimerParte()">Primera Parte</button><br><br>
+        <button onclick="SegundaParte()">Segunda Parte</button><br><br>
+        <button onclick="TercerParte()">Tercer Parte</button><br>
+    </div>
+    <script>
+        function TercerParte() {
+          location.href = "TercerParte/Tercer_Parte.html";
+        }
+    </script>
+    <script>
+        function PrimerParte() {
+          location.href = "PrimerParte.html";
+        }
+    </script>
+    <script>
+        function SegundaParte() {
+          location.href = "SegundaParte/SegundaParte.html";
+        }
+    </script>
+    <br><br><br><br><br><br><br><br><br><br>
+    <footer class="d-flex justify-content-center fs-5 text-center" id="footer">
+        &copy; Autores: Alejandro-Jeremy
+    </footer>
+</body>
+
+</html>
